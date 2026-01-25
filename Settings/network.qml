@@ -233,7 +233,7 @@ Rectangle {
             onClicked: {
                 downloadManager.append("") // needed as a workarround
                 downloadManager.append(
-                            "https://gitlab.com/PowerTuneDigital/PowertuneTracks/-/raw/main/repo.txt")
+                            "https://gitlab.com/anderml1955/PowertuneTracks/-/raw/main/repo.txt")
                 downloadManager.append("") // needed as a workarround
                 consoleText.append("Downloading Tracks for Laptimer :")
                 trackUpdate.enabled = false
