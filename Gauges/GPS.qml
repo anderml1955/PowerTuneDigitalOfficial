@@ -75,17 +75,17 @@ Rectangle {
             zoomLevel: 16
 			/*
 			NOT REALLY CORRECT !!
-MapType.NoMap - No map.
-MapType.StreetMap - A street map.
-MapType.SatelliteMapDay - A map with day-time satellite imagery.
-MapType.SatelliteMapNight - A map with night-time satellite imagery.
-MapType.TerrainMap - A terrain map.
-MapType.HybridMap - A map with satellite imagery and street information.
-MapType.GrayStreetMap - A gray-shaded street map.
-MapType.PedestrianMap - A street map suitable for pedestriants.
-MapType.CarNavigationMap - A street map suitable for car navigation.
-MapType.CycleMap - A street map suitable for cyclists.
-MapType.CustomMap - A custom map type.
+			0	MapType.NoMap - No map.
+			1	MapType.StreetMap - A street map.
+			2	MapType.SatelliteMapDay - A map with day-time satellite imagery.
+			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.
+			4	MapType.TerrainMap - A terrain map.
+			5	MapType.HybridMap - A map with satellite imagery and street information.
+			6	MapType.GrayStreetMap - A gray-shaded street map.
+			7	MapType.PedestrianMap - A street map suitable for pedestriants.
+			8	MapType.CarNavigationMap - A street map suitable for car navigation.
+			9	MapType.CycleMap - A street map suitable for cyclists.
+				MapType.CustomMap - A custom map type.
 
 			https://doc.qt.io/archives/qt-5.15/qml-qtlocation-maptype.html#style-prop
 
@@ -436,6 +436,7 @@ MapType.CustomMap - A custom map type.
         }
     }
 }
+
 
 
 
