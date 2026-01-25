@@ -91,7 +91,7 @@ Rectangle {
 			
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[5]
+            activeMapType: map.supportedMapTypes[3]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,4 +436,5 @@ Rectangle {
         }
     }
 }
+
 
