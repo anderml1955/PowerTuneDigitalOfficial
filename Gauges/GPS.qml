@@ -29,6 +29,30 @@ Rectangle {
                 name: "osm.useragent"
                 value: "PowerTune"
             }
+	//MLA
+				// https://doc.qt.io/qt-6/location-plugin-osm.html
+				// https://github.com/Elleo/qt-osm-map-providers
+				// https://blog.mikeasoft.com/2020/06/22/qt-qml-maps-using-the-osm-plugin-with-api-keys/
+				// https://stackoverflow.com/questions/61689939/qtlocation-osm-api-key-required
+				// https://www.youtube.com/watch?v=VlRMQWqI0S8
+				// https://manage.thunderforest.com/dashboard
+				
+//				name: "osm.geocoding.host"
+//				value: ""
+				
+	//MLA				
+
+
+	// MLA
+			
+			PluginParameter { 
+				name: "osm.mapping.highdpi_tiles"			// MLA - Works - gets tiles x2
+				value: true 
+			}
+			
+	// MLA
+
+
             PluginParameter {
                 name: 'osm.mapping.offline.directory'
                 //value: ':/GPSTracks/'
@@ -49,9 +73,27 @@ Rectangle {
             width: parent.width * 0.55
             plugin: mapPlugin
             zoomLevel: 16
-            activeMapType: map.supportedMapTypes[1]
-            copyrightsVisible: false
-            gesture.enabled: false
+			/*
+			NOT REALLY CORRECT !!
+				NoMap = 0,
+				StreetMap,
+				SatelliteMapDay,
+				SatelliteMapNight,
+				TerrainMap,
+				HybridMap,
+				TransitMap,
+				GrayStreetMap,
+				PedestrianMap,
+				CarNavigationMap,
+				CycleMap,
+				CustomMap = 100
+
+			
+			*/
+//            activeMapType: map.supportedMapTypes[1]		// OSM
+            activeMapType: map.supportedMapTypes[5]
+            copyrightsVisible: true			// MLA
+            gesture.enabled: true			// MLA
             tilt: 0
             bearing: Dashboard.gpsbearing
             color: "black"
@@ -394,3 +436,4 @@ Rectangle {
         }
     }
 }
+
