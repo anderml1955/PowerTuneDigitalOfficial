@@ -1,0 +1,9 @@
+ifconfig can0 txqueuelen 1000
+modprobe vcan
+ip link add dev vcan0 type vcan
+ip link set vcan0 up
+canplayer -I can20251231.log can0=vcan1
+canplayer vcan0=can0 -I can20251231.log
+ip link show
+ifconfig vcan0
+ifconfig can0

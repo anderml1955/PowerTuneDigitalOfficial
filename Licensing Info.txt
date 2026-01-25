@@ -1,0 +1,65 @@
+Licrequest.lic for small PT
+0xF8,0x9B,0x32,0xF5,0x09,0x6A,0xD2,0x2F,0x98,0x0C,0xD0,0x32,0x97,0xF4
+
+Licrequest.lic for PT Wide 10" in car - WORKS
+0x34-0x70-0xD4-0x2C-0xCF-0x2E-0xFA-0x6B-0x06-0xD2-0x95-0xA0-0xF2-0xD2-0x67
+                01   02                  04        05        06        03
+01 02 03 04 05 06				
+2C:CF:67:06:95:F2 - eth0 MAK for PT Wide 10" in car
+
+
+PT-10-MLA
+eth0      Link encap:Ethernet  HWaddr DC:A6:32:21:1C:08
+wlan0     Link encap:Ethernet  HWaddr DC:A6:32:21:1C:0A
+
+TO USE ORIGINAL LICENSE KEY SET THE ETH0 MAC ADDRESS TO MATCH ORIGINAL PI:
+ip link set eth0 down
+ip link set eth0 address 2C:CF:67:06:95:F2
+ip link set eth0 up
+
+OR
+
+/home/pi/ipchange.sh
+
+Restart daemon
+
+===========
+Car RPI 10
+root@raspberrypi4:~# ifconfig
+can0      Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+          UP RUNNING NOARP  MTU:16  Metric:1
+          RX packets:4185 errors:0 dropped:13 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:10
+          RX bytes:33472 (32.6 KiB)  TX bytes:0 (0.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 2C:CF:67:06:95:F2
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:21616 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:21616 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:744766 (727.3 KiB)  TX bytes:744766 (727.3 KiB)
+
+wlan0     Link encap:Ethernet  HWaddr 2C:CF:67:06:95:F5
+          inet addr:192.168.0.154  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::2ecf:67ff:fe06:95f5/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:158 errors:0 dropped:19 overruns:0 frame:0
+          TX packets:121 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:16425 (16.0 KiB)  TX bytes:16219 (15.8 KiB)
+==========
+
+2026-01-16 19:29:20 Allow 192.168.0.206 23.186.168.124 ntp/udp 123 123 Internal ATT Application identified 76 63 (Outgoing-00) proc_id="firewall" rc="100" msg_id="3000-0149" src_ip_nat="75.43.138.211" app_name="Network Time Protocol" app_cat_name="Network protocols" app_id="106" app_cat_id="19" app_beh_name="Access" app_beh_id="6" action="Global" geo_dst="USA" sig_vers="18.403"
+2026-01-16 19:29:24 Allow 192.168.0.206 205.233.73.201 ntp/udp 123 123 Internal ATT Application identified 76 63 (Outgoing-00) proc_id="firewall" rc="100" msg_id="3000-0149" src_ip_nat="75.43.138.211" app_name="Network Time Protocol" app_cat_name="Network protocols" app_id="106" app_cat_id="19" app_beh_name="Access" app_beh_id="6" action="Global" geo_dst="USA" sig_vers="18.403"
+2026-01-16 19:30:37 Allow 192.168.0.206 23.142.248.8 ntp/udp 123 123 Internal ATT Application identified 76 63 (Outgoing-00) proc_id="firewall" rc="100" msg_id="3000-0149" src_ip_nat="75.43.138.211" app_name="Network Time Protocol" app_cat_name="Network protocols" app_id="106" app_cat_id="19" app_beh_name="Access" app_beh_id="6" action="Global" geo_dst="USA" sig_vers="18.403"
+2026-01-16 19:30:39 Allow 192.168.0.206 129.146.193.200 ntp/udp 123 123 Internal ATT Application identified 76 63 (Outgoing-00) proc_id="firewall" rc="100" msg_id="3000-0149" src_ip_nat="75.43.138.211" app_name="Network Time Protocol" app_cat_name="Network protocols" app_id="106" app_cat_id="19" app_beh_name="Access" app_beh_id="6" action="Global" geo_dst="USA" sig_vers="18.403"
