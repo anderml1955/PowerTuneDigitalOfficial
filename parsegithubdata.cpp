@@ -48,7 +48,8 @@ QList<QString> parsegithubData::readTrackData()
     {
         QString tempString;
         //tempString = "https://raw.githubusercontent.com/Deadelven/PTKML/main/kmls/" + pair.first + "/" +pair.second+".txt";
-        tempString = "https://gitlab.com/PowerTuneDigital/PowertuneTracks/-/raw/main/Tracks/" + pair.first + "/" +pair.second;
+        //tempString = "https://gitlab.com/PowerTuneDigital/PowertuneTracks/-/raw/main/Tracks/" + pair.first + "/" +pair.second;
+        tempString = "https://gitlab.com/anderml1955/PowertuneTracks/-/raw/main/Tracks/" + pair.first + "/" +pair.second;
         returnStringList.append(tempString);
     }
     return returnStringList;
