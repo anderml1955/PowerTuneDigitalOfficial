@@ -76,22 +76,22 @@ Rectangle {
 			/*
 			NOT REALLY CORRECT !!
 			0	MapType.NoMap - No map.
-			1	MapType.StreetMap - A street map.
+			1	MapType.StreetMap - A street map.		ATLAS
 			2	MapType.SatelliteMapDay - A map with day-time satellite imagery.
 			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.
 			4	MapType.TerrainMap - A terrain map.
 			5	MapType.HybridMap - A map with satellite imagery and street information.
 			6	MapType.GrayStreetMap - A gray-shaded street map.
 			7	MapType.PedestrianMap - A street map suitable for pedestriants.
-			8	MapType.CarNavigationMap - A street map suitable for car navigation. ATLAS
-			9	MapType.CycleMap - A street map suitable for cyclists. ATLAS
+			8	MapType.CarNavigationMap - A street map suitable for car navigation.		ATLAS
+			9	MapType.CycleMap - A street map suitable for cyclists.						ATLAS
 				MapType.CustomMap - A custom map type.
 
 			https://doc.qt.io/archives/qt-5.15/qml-qtlocation-maptype.html#style-prop
 
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[1]
+            activeMapType: map.supportedMapTypes[3]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
