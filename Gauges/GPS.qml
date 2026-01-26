@@ -83,7 +83,7 @@ Rectangle {
 			5	MapType.HybridMap - A map with satellite imagery and street information.
 			6	MapType.GrayStreetMap - A gray-shaded street map.
 			7	MapType.PedestrianMap - A street map suitable for pedestriants.
-			8	MapType.CarNavigationMap - A street map suitable for car navigation.
+			8	MapType.CarNavigationMap - A street map suitable for car navigation. ATLAS
 			9	MapType.CycleMap - A street map suitable for cyclists.
 				MapType.CustomMap - A custom map type.
 
@@ -91,7 +91,7 @@ Rectangle {
 
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[8]
+            activeMapType: map.supportedMapTypes[9]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
