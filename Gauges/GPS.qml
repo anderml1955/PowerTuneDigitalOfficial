@@ -70,7 +70,8 @@ Rectangle {
         Map {
             id: map
             height: parent.height
-            width: parent.width * 0.55
+//            width: parent.width * 0.55
+            width: parent.width * 0.775
             plugin: mapPlugin
             zoomLevel: 16
 			/*
@@ -117,10 +118,12 @@ Rectangle {
         }
         ComboBox {
             id: countryselect
-            width: parent.width * 0.21//170
-            height: parent.height * 0.0625//30
+//            width: parent.width * 0.21//170
+//            height: parent.height * 0.0625//30
+            width: parent.width * 0.105//170
+            height: parent.height * 0.03125//30
             anchors.left: map.right
-            font.pixelSize: parent.width * 0.025 //20
+            font.pixelSize: parent.width * 0.0125 //20
             //model: [ "Current Position","Australia","Germany","New Zealand","South Africa","United Kingdom","USA"]
             model: ["Current Position", "Australia", "Germany", "New Zealand", "South Africa"]
             delegate: ItemDelegate {
@@ -138,10 +141,12 @@ Rectangle {
         }
         ComboBox {
             id: trackselect
-            width: parent.width * 0.24//230
-            height: parent.height * 0.0625//30
+//            width: parent.width * 0.24//230
+//            height: parent.height * 0.0625//30
+            width: parent.width * 0.12//230
+            height: parent.height * 0.03125//30
             anchors.left: countryselect.right
-            font.pixelSize: parent.width * 0.025//20
+            font.pixelSize: parent.width * 0.0125//20
             model: ["Wakefield Park"]
             delegate: ItemDelegate {
                 width: trackselect.width
@@ -437,6 +442,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
