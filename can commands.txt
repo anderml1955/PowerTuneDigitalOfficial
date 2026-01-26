@@ -7,3 +7,7 @@ canplayer vcan0=can0 -I can20251231.log
 ip link show
 ifconfig vcan0
 ifconfig can0
+
+grep -rnwi "gitlab.com/PowerTuneDigital" .
+/home/pi/setup-IP-CAN.sh
+
