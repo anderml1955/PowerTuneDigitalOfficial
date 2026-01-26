@@ -27,7 +27,7 @@ Rectangle {
 
     Flickable {
         id: flickable
-        width: 900 //450
+        width: 950 //450
         height: 600 //400
 
         TextArea.flickable: TextArea {
