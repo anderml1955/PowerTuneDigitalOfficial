@@ -123,6 +123,7 @@ Rectangle {
             width: parent.width * 0.105//170
             height: parent.height * 0.03125//30
             anchors.left: map.right
+            anchors.top: parent.height * 0.0625
             font.pixelSize: parent.width * 0.0125 //20
             //model: [ "Current Position","Australia","Germany","New Zealand","South Africa","United Kingdom","USA"]
             model: ["Current Position", "Australia", "Germany", "New Zealand", "South Africa"]
@@ -146,6 +147,7 @@ Rectangle {
             width: parent.width * 0.12//230
             height: parent.height * 0.03125//30
             anchors.left: countryselect.right
+            anchors.top: parent.height * 0.0625
             font.pixelSize: parent.width * 0.0125//20
             model: ["Wakefield Park"]
             delegate: ItemDelegate {
@@ -442,6 +444,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
