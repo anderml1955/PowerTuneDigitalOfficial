@@ -82,7 +82,7 @@ Rectangle {
 			4	MapType.TerrainMap - A terrain map.											LANDSCAPE
 			5	MapType.HybridMap - A map with satellite imagery and street information.	OUTDOORS
 			6	MapType.GrayStreetMap - A gray-shaded street map.							OUTDOORS
-			7	MapType.PedestrianMap - A street map suitable for pedestriants.
+			7	MapType.PedestrianMap - A street map suitable for pedestriants.				ATLAS
 			8	MapType.CarNavigationMap - A street map suitable for car navigation.		ATLAS
 			9	MapType.CycleMap - A street map suitable for cyclists.						ATLAS
 				MapType.CustomMap - A custom map type.
@@ -91,7 +91,7 @@ Rectangle {
 
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[7]
+            activeMapType: map.supportedMapTypes[10]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
