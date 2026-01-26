@@ -165,14 +165,15 @@ Rectangle {
 
             Text {
                 text: "Current Time: "
-                font.pixelSize: mapItem.width * 0.025 //20
+//                font.pixelSize: mapItem.width * 0.025 //20
+                font.pixelSize: mapItem.width * 0.012 //20
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 id:dateTime
                 text: Dashboard.gpsTime
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.012
                 font.bold: true
                 font.family: "Eurostile"
                 Component.onCompleted: {
@@ -436,6 +437,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
