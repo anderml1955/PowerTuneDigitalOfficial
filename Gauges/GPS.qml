@@ -76,8 +76,8 @@ Rectangle {
 			/*
 			NOT REALLY CORRECT !!
 			0	MapType.NoMap - No map.
-			1	MapType.StreetMap - A street map.		ATLAS
-			2	MapType.SatelliteMapDay - A map with day-time satellite imagery.
+			1	MapType.StreetMap - A street map.											ATLAS
+			2	MapType.SatelliteMapDay - A map with day-time satellite imagery.			TRANSPORT
 			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.		TRANSPORT-DARK
 			4	MapType.TerrainMap - A terrain map.
 			5	MapType.HybridMap - A map with satellite imagery and street information.
@@ -91,7 +91,7 @@ Rectangle {
 
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[2]
+            activeMapType: map.supportedMapTypes[4]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
