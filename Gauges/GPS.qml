@@ -81,7 +81,7 @@ Rectangle {
 			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.		TRANSPORT-DARK
 			4	MapType.TerrainMap - A terrain map.											LANDSCAPE
 			5	MapType.HybridMap - A map with satellite imagery and street information.	OUTDOORS
-			6	MapType.GrayStreetMap - A gray-shaded street map.
+			6	MapType.GrayStreetMap - A gray-shaded street map.							OUTDOORS
 			7	MapType.PedestrianMap - A street map suitable for pedestriants.
 			8	MapType.CarNavigationMap - A street map suitable for car navigation.		ATLAS
 			9	MapType.CycleMap - A street map suitable for cyclists.						ATLAS
@@ -91,7 +91,7 @@ Rectangle {
 
 			*/
 //            activeMapType: map.supportedMapTypes[1]		// OSM
-            activeMapType: map.supportedMapTypes[6]
+            activeMapType: map.supportedMapTypes[7]
             copyrightsVisible: true			// MLA
             gesture.enabled: true			// MLA
             tilt: 0
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
