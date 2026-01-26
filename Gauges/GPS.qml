@@ -84,7 +84,7 @@ Rectangle {
 			6	MapType.GrayStreetMap - A gray-shaded street map.
 			7	MapType.PedestrianMap - A street map suitable for pedestriants.
 			8	MapType.CarNavigationMap - A street map suitable for car navigation. ATLAS
-			9	MapType.CycleMap - A street map suitable for cyclists.
+			9	MapType.CycleMap - A street map suitable for cyclists. ATLAS
 				MapType.CustomMap - A custom map type.
 
 			https://doc.qt.io/archives/qt-5.15/qml-qtlocation-maptype.html#style-prop
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
