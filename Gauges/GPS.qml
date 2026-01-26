@@ -78,7 +78,7 @@ Rectangle {
 			0	MapType.NoMap - No map.
 			1	MapType.StreetMap - A street map.		ATLAS
 			2	MapType.SatelliteMapDay - A map with day-time satellite imagery.
-			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.
+			3	MapType.SatelliteMapNight - A map with night-time satellite imagery.		TRANSPORT-DARK
 			4	MapType.TerrainMap - A terrain map.
 			5	MapType.HybridMap - A map with satellite imagery and street information.
 			6	MapType.GrayStreetMap - A gray-shaded street map.
@@ -436,6 +436,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
