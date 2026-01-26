@@ -166,14 +166,14 @@ Rectangle {
             Text {
                 text: "Current Time: "
 //                font.pixelSize: mapItem.width * 0.025 //20
-                font.pixelSize: mapItem.width * 0.012 //20
+                font.pixelSize: mapItem.width * 0.0125 //20
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 id:dateTime
                 text: Dashboard.gpsTime
-                font.pixelSize: mapItem.width * 0.012
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
                 Component.onCompleted: {
@@ -182,97 +182,97 @@ Rectangle {
             }
             Text {
                 text: "GPS Speed: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsSpeed
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "Altitude: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsAltitude
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "Latitude: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsLatitude.toFixed(6)
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "Longitude: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsLongitude.toFixed(6)
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "Visible Satelites: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsVisibleSatelites
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "GPS Bearing: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsbearing
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "GPS HDOP: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: (Dashboard.gpsHDOP).toFixed(2)
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: "GPS FIX type: "
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
             Text {
                 text: Dashboard.gpsFIXtype
-                font.pixelSize: mapItem.width * 0.025
+                font.pixelSize: mapItem.width * 0.0125
                 font.bold: true
                 font.family: "Eurostile"
             }
@@ -437,6 +437,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
