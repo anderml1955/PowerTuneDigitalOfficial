@@ -59,6 +59,11 @@ Rectangle {
                 value: "/home/pi/maptiles/"
             }
 
+            PluginParameter {
+                name: 'osm.mapping.cache.directory'
+                value: "/home/pi/maptilescache/"
+            }
+
             /*
                        PluginParameter {
                           name: "osm.mapping.providersrepository.address"
@@ -444,6 +449,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
