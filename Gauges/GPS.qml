@@ -73,7 +73,7 @@ Rectangle {
 //            width: parent.width * 0.55
             width: parent.width * 0.775
             plugin: mapPlugin
-            zoomLevel: 16
+            zoomLevel: 17 //16
 			/*
 			NOT REALLY CORRECT !!
 			0	MapType.NoMap - No map.
@@ -444,6 +444,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
