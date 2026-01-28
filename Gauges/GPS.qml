@@ -53,12 +53,12 @@ Rectangle {
 	// MLA
 
 
-            PluginParameter {
+/*            PluginParameter {
                 name: 'osm.mapping.offline.directory'
                 //value: ':/GPSTracks/'
                 value: "/home/pi/maptiles/"
             }
-
+*/
             PluginParameter {
                 name: 'osm.mapping.cache.directory'
                 value: "/home/pi/maptilescache/"
@@ -449,6 +449,7 @@ Rectangle {
         }
     }
 }
+
 
 
 
