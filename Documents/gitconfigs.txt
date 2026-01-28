@@ -1,0 +1,28 @@
+/home/pi/./src/.git/config:7:	url = https://github.com/anderml1955/PowerTuneDigitalOfficial.git
+/home/pi/./src/.git/FETCH_HEAD:1:00ad6ed1e661b1ec156f712cedef8b05a972716f		branch 'main' of https://github.com/anderml1955/PowerTuneDigitalOfficial
+/home/pi/./src/parsegithubdata.cpp:52:        tempString = "https://gitlab.com/anderml1955/PowertuneTracks/-/raw/main/Tracks/" + pair.first + "/" +pair.second;
+/home/pi/./src/Settings/network.qml:236:                            "https://gitlab.com/anderml1955/PowertuneTracks/-/raw/main/repo.txt")
+/home/pi/./src/updatepi4.sh:3:REPO_URL="https://github.com/anderml1955/YoctoExtraPackages.git"
+/home/pi/./src/updatePowerTune.sh:31:                git clone https://github.com/anderml1955/PowerTuneDigitalRecovery.git /home/pi/Recoverysrc
+/home/pi/./src/updatePowerTune.sh:46:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src
+/home/pi/./src/updatePowerTune.sh:105:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src  
+/home/pi/./updatePowerTune-new.sh:31:                git clone https://github.com/anderml1955/PowerTuneDigitalRecovery.git /home/pi/Recoverysrc
+/home/pi/./updatePowerTune-new.sh:46:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src
+/home/pi/./updatePowerTune-new.sh:105:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src  
+/home/pi/./Recoverysrc/.git/config:7:	url = https://github.com/anderml1955/PowerTuneDigitalRecovery.git
+/home/pi/./Recoverysrc/.git/FETCH_HEAD:1:75507e9500feff166d8adc25f8c708cfc7a94c21		branch 'main' of https://github.com/anderml1955/PowerTuneDigitalRecovery
+/home/pi/./Recoverysrc/PTrecovery.cpp:266:        p->start("sh", QStringList()<<"-c"<<"git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src");
+/home/pi/./updatepi4.sh:3:REPO_URL="https://github.com/anderml1955/YoctoExtraPackages.git"
+/home/pi/./updatePowerTune.sh:31:                git clone https://github.com/anderml1955/PowerTuneDigitalRecovery.git /home/pi/Recoverysrc
+/home/pi/./updatePowerTune.sh:46:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src
+/home/pi/./updatePowerTune.sh:105:		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src  
+
+cp /home/pi/src/setup-IP-CAN.sh /home/pi/
+chmod +x /home/pi/setup-IP-CAN.sh
+
+grep -rnwi "gitlab.com/PowerTuneDigital" .
+/home/pi/setup-IP-CAN.sh
+
+Edit /etc/init.d/powertune
+	Add right above the startdaemon.sh command the following:
+	/home/pi/setup-IP-CAN.sh 
