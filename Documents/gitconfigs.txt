@@ -26,3 +26,15 @@ grep -rnwi "gitlab.com/PowerTuneDigital" .
 Edit /etc/init.d/powertune
 	Add right above the startdaemon.sh command the following:
 	/home/pi/setup-IP-CAN.sh 
+	
+Other changes from defaults:
+Units
+Dash dimming
+Warn/Gear
+	AFR - Lambda multiply
+Odometer
+EX Board values at 5V  channels 0-2 : 20.5~, others 5
+Digital input headlight channel & CAN/IO Brightness Function
+
+Startup Daemon
+Network
