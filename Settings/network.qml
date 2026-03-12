@@ -27,8 +27,12 @@ Rectangle {
 
     Flickable {
         id: flickable
-        width: 450
-        height: 400
+//    800x480 & 1600x720
+
+//        width: 950 //450
+//        height: 600 //400
+        width: parent.width * 0.60
+        height: parent.height * 0.90
 
         TextArea.flickable: TextArea {
             id: consoleText
@@ -233,7 +237,7 @@ Rectangle {
             onClicked: {
                 downloadManager.append("") // needed as a workarround
                 downloadManager.append(
-                            "https://gitlab.com/PowerTuneDigital/PowertuneTracks/-/raw/main/repo.txt")
+                            "https://gitlab.com/anderml1955/PowertuneTracks/-/raw/main/repo.txt")
                 downloadManager.append("") // needed as a workarround
                 consoleText.append("Downloading Tracks for Laptimer :")
                 trackUpdate.enabled = false

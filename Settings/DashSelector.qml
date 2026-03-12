@@ -29,41 +29,45 @@ Rectangle {
         }
         case 2:
         {
-            return "qrc:/GPSTracks/Laptimer.qml"
+            return "qrc:/Gauges/Map.qml"
         }
         case 3:
         {
-            return "qrc:/Gauges/PFCSensors.qml"
+            return "qrc:/GPSTracks/Laptimer.qml"
         }
         case 4:
         {
-            return "qrc:/Gauges/Userdash1.qml"
+            return "qrc:/Gauges/PFCSensors.qml"
         }
         case 5:
         {
-            return "qrc:/Gauges/Userdash2.qml"
+            return "qrc:/Gauges/Userdash1.qml"
         }
         case 6:
         {
-            return "qrc:/Gauges/Userdash3.qml"
+            return "qrc:/Gauges/Userdash2.qml"
         }
         case 7:
         {
-            return "qrc:/Gauges/ForceMeter.qml"
+            return "qrc:/Gauges/Userdash3.qml"
         }
         case 8:
         {
-            return "qrc:/Gauges/Mediaplayer.qml"
+            return "qrc:/Gauges/ForceMeter.qml"
         }
         case 9:
         {
-            return "qrc:/Gauges/Screentoggle.qml"
+            return "qrc:/Gauges/Mediaplayer.qml"
         }
         case 10:
         {
-            return "qrc:/Gauges/SpeedMeasurements.qml"
+            return "qrc:/Gauges/Screentoggle.qml"
         }
         case 11:
+        {
+            return "qrc:/Gauges/SpeedMeasurements.qml"
+        }
+        case 12:
         {
             return "qrc:/Settings/CanMonitor.qml"
         }
@@ -168,3 +172,4 @@ Rectangle {
         Component.onCompleted: tabView.currentIndex = 0 //switch back to main tab
     }
 }
+
