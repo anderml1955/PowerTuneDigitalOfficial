@@ -1843,6 +1843,56 @@ ListModel {
         divisor : "1"
         supportedECUs: "PowerTune"
     }
+	ListElement {
+			sourcename:"gpsHour60"
+			defaultsymbol: ""
+			titlename:"GPS Hour 60 Increments"
+			decimalpoints : "0"
+			maxvalue : "60"
+			stepsize : "1"
+			divisor : "1"
+			supportedECUs: "PowerTune"
+		}
+	ListElement {
+			sourcename:"gpsMinute60"
+			defaultsymbol: ""
+			titlename:"GPS Minutes"
+			decimalpoints : "0"
+			maxvalue : "60"
+			stepsize : "1"
+			divisor : "1"
+			supportedECUs: "PowerTune"
+		}
+	ListElement {
+			sourcename:"gpsSecond60"
+			defaultsymbol: ""
+			titlename:"GPS Seconds"
+			decimalpoints : "0"
+			maxvalue : "60"
+			stepsize : "1"
+			divisor : "1"
+			supportedECUs: "PowerTune"
+		}
+	ListElement {
+			sourcename:"gpsHour12"
+			defaultsymbol: ""
+			titlename:"GPS 12 Hour Digit"
+			decimalpoints : "0"
+			maxvalue : "12"
+			stepsize : "1"
+			divisor : "1"
+			supportedECUs: "PowerTune"
+		}
+	ListElement {
+			sourcename:"gpsUTCOffset"
+			defaultsymbol: ""
+			titlename:"GPS UTC Hour Offset"
+			decimalpoints : "0"
+			maxvalue : "14"
+			stepsize : "1"
+			divisor : "1"
+			supportedECUs: "PowerTune"
+		}
     ListElement {
         sourcename:"gyrox"
         defaultsymbol: ""
