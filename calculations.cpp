@@ -299,7 +299,7 @@ if (m_dashboard->speedunits()  == "imperial"  && startdragcalculation == 1)
 
 
     //Odometer
-   if (m_dashboard->speed() > 0) // ensure that odo and trip meter only gets updated if the speed is greater  km/h
+   if (m_dashboard->speed() > 0) // ensure that odo and trip meter only gets updated if the speed is greater than 0 km/h 
    {
 
        // Get the current timestamp
@@ -400,4 +400,7 @@ if (m_dashboard->speedunits()  == "imperial"  && startdragcalculation == 1)
     //Voltage
 
 }
+
+
+
 

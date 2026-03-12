@@ -281,7 +281,10 @@ DashBoard::DashBoard(QObject *parent)
     , m_gpsFIXtype ("no connection")
     , m_gpsbearing (0)
     , m_gpsHDOP (0)
-
+    , m_gpsHour60 (0)
+    , m_gpsMinute60 (0)
+    , m_gpsSecond60 (0)
+    , m_gpsHour12 (0)
 
     //units
     , m_units("unit")
@@ -2088,6 +2091,36 @@ void DashBoard::setgpsHDOP(const qreal &gpsHDOP)
         return;
     m_gpsHDOP = gpsHDOP;
     emit gpsHDOPChanged(gpsHDOP);
+}
+
+void DashBoard::setgpsHour60(const int &gpsHour60)
+{
+    if (m_gpsHour60 == gpsHour60)
+        return;
+    m_gpsHour60 = gpsHour60;
+    emit gpsHour60Changed(gpsHour60);
+}
+
+void DashBoard::setgpsMinute60(const int &gpsMinute60)
+{
+    if (m_gpsMinute60 == gpsMinute60)
+        return;
+    m_gpsMinute60 = gpsMinute60;
+    emit gpsMinute60Changed(gpsMinute60);
+}
+void DashBoard::setgpsSecond60(const int &gpsSecond60)
+{
+    if (m_gpsSecond60 == gpsSecond60)
+        return;
+    m_gpsSecond60 = gpsSecond60;
+    emit gpsSecond60Changed(gpsSecond60);
+}
+void DashBoard::setgpsHour12(const int &gpsHour12)
+{
+    if (m_gpsHour12 == gpsHour12)
+        return;
+    m_gpsHour12 = gpsHour12;
+    emit gpsHour12Changed(gpsHour12);
 }
 
 // Units
@@ -5642,6 +5675,10 @@ int DashBoard::gpsVisibleSatelites () const { return m_gpsVisibleSatelites; }
 QString DashBoard::gpsFIXtype () const { return m_gpsFIXtype; }
 qreal DashBoard::gpsbearing() const { return m_gpsbearing; }
 qreal DashBoard::gpsHDOP() const { return m_gpsHDOP; }
+int DashBoard::gpsHour60 () const { return m_gpsHour60; }
+int DashBoard::gpsMinute60 () const { return m_gpsMinute60; }
+int DashBoard::gpsSecond60 () const { return m_gpsSecond60; }
+int DashBoard::gpsHour12 () const { return m_gpsHour12; }
 
 //units
 QString DashBoard::units() const { return m_units; }

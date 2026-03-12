@@ -218,6 +218,10 @@ class DashBoard : public QObject
     Q_PROPERTY(QString gpsFIXtype READ gpsFIXtype  WRITE setgpsFIXtype  NOTIFY gpsFIXtypeChanged)
     Q_PROPERTY(qreal gpsbearing READ gpsbearing WRITE setgpsbearing NOTIFY gpsbearingChanged)
     Q_PROPERTY(qreal gpsHDOP READ gpsHDOP WRITE setgpsHDOP NOTIFY gpsHDOPChanged)
+    Q_PROPERTY(int gpsHour60 READ gpsHour60 WRITE setgpsHour60 NOTIFY gpsHour60Changed)
+    Q_PROPERTY(int gpsMinute60 READ gpsMinute60 WRITE setgpsMinute60 NOTIFY gpsMinute60Changed)
+    Q_PROPERTY(int gpsSecond60 READ gpsSecond60 WRITE setgpsSecond60 NOTIFY gpsSecond60Changed)
+    Q_PROPERTY(int gpsHour12 READ gpsHour12 WRITE setgpsHour12 NOTIFY gpsHour12Changed)
 
     //Units ( metric /imperial select
     Q_PROPERTY(QString units READ units WRITE setunits NOTIFY unitsChanged)
@@ -878,6 +882,10 @@ class DashBoard : public QObject
     void setgpsFIXtype(const QString &gpsFIXtype);
     void setgpsbearing(const qreal &gpsbearing);
     void setgpsHDOP(const qreal &gpsHDOP);
+    void setgpsHour60(const int &gpsHour60);
+    void setgpsMinute60(const int &gpsMinute60);
+    void setgpsSecond60(const int &gpsSecond60);
+    void setgpsHour12(const int &gpsHour12);
 
     // Units
     void setunits(const QString &units);
@@ -1506,6 +1514,10 @@ class DashBoard : public QObject
     QString gpsFIXtype() const;
     qreal gpsbearing() const;
     qreal gpsHDOP() const;
+    int gpsHour60() const;
+    int gpsMinute60() const;
+    int gpsSecond60() const;
+    int gpsHour12() const;
 
     //units
     QString units() const;
@@ -2128,6 +2140,10 @@ signals:
     void gpsFIXtypeChanged(QString gpsFIXtype);
     void gpsbearingChanged(qreal gpsbearing);
     void gpsHDOPChanged(qreal gpsHDOP);
+    void gpsHour60Changed(int gpsHour60);
+    void gpsMinute60Changed(int gpsMinute60);
+    void gpsSecond60Changed(int gpsSecond60);
+    void gpsHour12Changed(int gpsHour12);
 
     // units
 
@@ -2806,6 +2822,10 @@ private:
     QString m_gpsFIXtype;
     qreal m_gpsbearing;
     qreal m_gpsHDOP;
+    int m_gpsHour60;
+    int m_gpsMinute60;
+    int m_gpsSecond60;
+    int m_gpsHour12;
 
     //Units
 

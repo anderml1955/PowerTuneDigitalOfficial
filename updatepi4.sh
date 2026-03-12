@@ -1,6 +1,6 @@
 #!/bin/bash
 # Define the GitHub repository URL
-REPO_URL="https://github.com/PowerTuneDigital/YoctoExtraPackages.git"
+REPO_URL="https://github.com/anderml1955/YoctoExtraPackages.git"
 
 # Define the paths for Perl and OpenSSL
 PERL_INSTALL_PATH="/usr/local/lib/perl5/5.38.0"

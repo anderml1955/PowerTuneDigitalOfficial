@@ -19,6 +19,7 @@
         <file>Gauges/PFCSensors.qml</file>
         <file>Gauges/BarGauge.qml</file>
         <file>Gauges/GPS.qml</file>
+        <file>Gauges/Map.qml</file>
         <file>graphics/Racedash800x480.png</file>
         <file>graphics/MainDash.png</file>
         <file>Gauges/GaugeNeedle_minus90to180.qml</file>
@@ -139,6 +140,12 @@
         <file>graphics/userManualQR.png</file>
         <file>graphics/brightnessIncrease.png</file>
         <file>graphics/brightnessDecrease.png</file>
+        <file>graphics/zoomin.png</file>
+        <file>graphics/zoomout.png</file>
+        <file>graphics/map_north_up.png</file>
+        <file>graphics/map_bearing.png</file>
         <file>Gauges/Keypad.qml</file>
     </qresource>
 </RCC>
+
+
