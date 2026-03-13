@@ -104,7 +104,7 @@ State gauge,1367,337,60,highbeam,0,file:///home/pi/Logo/MG (24).png,file:///home
 State gauge,462,404,40,oilpres,100,file:///home/pi/Logo/MG (8).png,file:///home/pi/Logo/MG (20).png
 State gauge,567,404,40,BatteryV,11,file:///home/pi/Logo/MG (3).png,file:///home/pi/Logo/MG (15).png
 State gauge,354,405,40,mil,0,file:///home/pi/Logo/MG (7).png,file:///home/pi/Logo/MG (19).png
-State gauge,1320,540,50,FuelLevel,10,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
+State gauge,1325,540,50,FuelLevel,10,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
 State gauge,784,405,40,handbrake,0,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
 State gauge,316,602,40,oiltemp,180,file:///home/pi/Logo/MG (18).png,file:///home/pi/Logo/MG (6).png
 State gauge,800,602,40,Watertemp,200,file:///home/pi/Logo/MG (17).png,file:///home/pi/Logo/MG (5).png
