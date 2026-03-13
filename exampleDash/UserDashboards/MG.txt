@@ -111,7 +111,7 @@ State gauge,784,405,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file://
 State gauge,462,404,40,oilpres,20,file:///home/pi/Logo/MG (8).png,file:///home/pi/Logo/MG (20).png
 //
 State gauge,567,404,40,BatteryV,11,file:///home/pi/Logo/MG (3).png,file:///home/pi/Logo/MG (15).png
-State gauge,1320,540,50,FuelLevel,10,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
+State gauge,1325,540,50,FuelLevel,10,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
 State gauge,316,602,40,oiltemp,180,file:///home/pi/Logo/MG (18).png,file:///home/pi/Logo/MG (6).png
 
 
