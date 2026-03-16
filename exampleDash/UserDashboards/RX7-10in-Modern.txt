@@ -98,7 +98,7 @@ State gauge,267,266,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home
 State gauge,311,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 State gauge,554,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 Text label gauge,1168,463,110363,Segment7,20,white,Odo,true,0,200000,-20000,
-Text label gauge,1220,510,121.9,Segment7,18,white,Trip,true,1,200000,-20000,
+Text label gauge,1220,510,122.0,Segment7,18,white,Trip,true,1,200000,-20000,
 State gauge,435,168,50,EXDigitalInput1,1,file:///home/pi/Logo/MG (26).png,file:///home/pi/Logo/MG (25).png
 State gauge,771,171,50,EXDigitalInput2,1,file:///home/pi/Logo/MG (28).png,file:///home/pi/Logo/MG (27).png
 State gauge,676,404,40,EXDigitalInput6,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
@@ -106,9 +106,10 @@ State gauge,745,235,100,EXDigitalInput7,1,file:///home/pi/Logo/MG (23).png,file:
 State gauge,409,235,100,EXDigitalInput8,1,file:///home/pi/Logo/MG (36).png,file:///home/pi/Logo/MG (35).png
 State gauge,354,404,40,mil,1,file:///home/pi/Logo/MG (19).png,file:///home/pi/Logo/MG (7).png
 State gauge,800,602,40,EXDigitalInput3,1,file:///home/pi/Logo/MG (5).png,file:///home/pi/Logo/MG (17).png
-State gauge,784,405,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
+State gauge,784,404,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
 State gauge,553,602,40,oilpres,20,file:///home/pi/Logo/MG (8).png,file:///home/pi/Logo/MG (20).png
 State gauge,567,404,40,BatteryV,11,file:///home/pi/Logo/MG (3).png,file:///home/pi/Logo/MG (15).png
 State gauge,1325,540,50,FuelLevel,20,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
 State gauge,316,602,40,oiltemp,200,file:///home/pi/Logo/MG (18).png,file:///home/pi/Logo/MG (6).png
+State gauge,463,404,40,EXDigitalInput4,1,file:///home/pi/Logo/MG (11).png,file:///home/pi/Logo/MG (12).png
 
