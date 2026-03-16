@@ -87,7 +87,7 @@ gauge image,1.0178179155479654,-443.4049304369051,1601,file:///home/pi/Logo/MGfi
 Round gauge,710,880.9987515605494,4.012474012474058,speed,130,0,130,-1000,-131,130,110,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,5,92,8,0,2,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
 State GIF,492,148,250,rpm,500,file:///home/pi/Logo/MGrotor-off.gif,file:///home/pi/Logo/MGrotor.gif,0
 Round gauge,206,715,480,Watertemp,220,0,200,-1000,-130,128,220,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,-5,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
-Round gauge,206,470,480,oilpres,100,0,100,20,-129,129,100,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,2,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,206,470,480,oilpres,100,0,100,20,-129,129,100,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,2,red,darkred,transparent,red,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
 Round gauge,206,227,480,oiltemp,220,0,200,-1000,-130,128,220,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,-5,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
 Round gauge,206,184,184,gpsHour60,60,0,755,-1000,0,360,60,1,0,0,1,1,0,38,0,0,0,0,0,0,0.5,0.4,0.33,0.25,20,2,65,14,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,F Automaton,0,0,1,false,SF Automaton, , , ,, ,, ,,
 Round gauge,206,184,184,gpsMinute60,60,0,755,-1000,0,360,60,1,0,0,1,1,0,38,0,0,0,0,0,0,0.5,0.4,0.33,0.25,20,2,75,8,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,F Automaton,0,0,1,false,SF Automaton, , , ,, ,, ,,
@@ -97,13 +97,13 @@ State gauge,798,561,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home
 State gauge,267,266,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 State gauge,311,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 State gauge,554,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
-Text label gauge,1168,463,110348,Segment7,20,white,Odo,true,0,200000,-20000,
-Text label gauge,1220,510,107.0,Segment7,18,white,Trip,true,1,200000,-20000,
+Text label gauge,1168,463,110363,Segment7,20,white,Odo,true,0,200000,-20000,
+Text label gauge,1220,510,121.9,Segment7,18,white,Trip,true,1,200000,-20000,
 State gauge,435,168,50,EXDigitalInput1,1,file:///home/pi/Logo/MG (26).png,file:///home/pi/Logo/MG (25).png
 State gauge,771,171,50,EXDigitalInput2,1,file:///home/pi/Logo/MG (28).png,file:///home/pi/Logo/MG (27).png
-State gauge,676,404,40,EXDigitalInput8,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
+State gauge,676,404,40,EXDigitalInput6,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
 State gauge,745,235,100,EXDigitalInput7,1,file:///home/pi/Logo/MG (23).png,file:///home/pi/Logo/MG (24).png
-State gauge,409,235,100,EXDigitalInput8,1,file:///home/pi/Logo/MG (35).png,file:///home/pi/Logo/MG (36).png
+State gauge,409,235,100,EXDigitalInput8,1,file:///home/pi/Logo/MG (36).png,file:///home/pi/Logo/MG (35).png
 State gauge,354,404,40,mil,1,file:///home/pi/Logo/MG (19).png,file:///home/pi/Logo/MG (7).png
 State gauge,800,602,40,EXDigitalInput3,1,file:///home/pi/Logo/MG (5).png,file:///home/pi/Logo/MG (17).png
 State gauge,784,405,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
