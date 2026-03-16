@@ -103,7 +103,7 @@ State gauge,435,168,50,EXDigitalInput1,1,file:///home/pi/Logo/MG (26).png,file:/
 State gauge,771,171,50,EXDigitalInput2,1,file:///home/pi/Logo/MG (28).png,file:///home/pi/Logo/MG (27).png
 State gauge,676,404,40,EXDigitalInput8,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
 State gauge,745,235,100,EXDigitalInput7,1,file:///home/pi/Logo/MG (23).png,file:///home/pi/Logo/MG (24).png
-State gauge,409,235,100,EXDigitalInput7,1,file:///home/pi/Logo/MG (23).png,file:///home/pi/Logo/MG (24).png
+State gauge,409,235,100,EXDigitalInput8,1,file:///home/pi/Logo/MG (35).png,file:///home/pi/Logo/MG (36).png
 State gauge,354,404,40,mil,1,file:///home/pi/Logo/MG (19).png,file:///home/pi/Logo/MG (7).png
 State gauge,800,602,40,EXDigitalInput3,1,file:///home/pi/Logo/MG (5).png,file:///home/pi/Logo/MG (17).png
 State gauge,784,405,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
