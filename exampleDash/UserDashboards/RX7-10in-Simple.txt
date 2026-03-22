@@ -1,3 +1,4 @@
+State gauge,0,-440,1600,speed,0,file:///home/pi/Logo/black-concrete-textured-background-1600x720_2.png,file:///home/pi/Logo/black-concrete-textured-background-1600x720_2.png
 gauge image,-20,110,570,file:///home/pi/Logo/center2.png
 Round gauge,260,340,140,oiltemp,210,150,200,-1000,-190,-50,200,1,20,1,20,0,-10,38,3,3,8,3,15,5,0.5,0.4,0.33,0.25,14,5,60,14,5,20,blue,darkblue,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,SF Automaton,32,30,16,false,SF Automaton Black, , , ,, ,, ,,
 Round gauge,260,340,140,Watertemp,210,150,200,-1000,-190,-50,200,1,20,3,20,0,0,38,3,3,8,3,15,5,0.5,0.4,0.33,0.25,14,5,80,15,4,15,red,darkred,transparent,transparent,dimgray,dimgray,floralwhite,floralwhite,floralwhite,floralwhite,transparent,transparent,transparent,transparent,true,false,false,SF Automaton,29,30,16,false,SF Automaton Black, , , ,, ,, ,,
