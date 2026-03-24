@@ -97,8 +97,8 @@ State gauge,798,561,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home
 State gauge,267,266,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 State gauge,311,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
 State gauge,554,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
-Text label gauge,1168,463,110513,Segment7,20,white,Odo,true,0,200000,-20000,
-Text label gauge,1220,510,24.0,Segment7,18,white,Trip,true,1,200000,-20000,
+Text label gauge,1168,463,110514,Segment7,20,white,Odo,true,0,200000,-20000,
+Text label gauge,1220,510,24.6,Segment7,18,white,Trip,true,1,200000,-20000,
 State gauge,435,168,50,EXDigitalInput1,1,file:///home/pi/Logo/MG (26).png,file:///home/pi/Logo/MG (25).png
 State gauge,771,171,50,EXDigitalInput2,1,file:///home/pi/Logo/MG (28).png,file:///home/pi/Logo/MG (27).png
 State gauge,676,404,40,EXDigitalInput6,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
