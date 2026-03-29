@@ -1,0 +1,116 @@
+gauge image,1.0178179155479654,-443.4049304369051,1601,file:///home/pi/Logo/MGblack.png
+State gauge,7,-118,851,rpm,0,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_00.png
+State gauge,7,-118,851,rpm,100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_01.png
+State gauge,7,-118,851,rpm,200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_02.png
+State gauge,7,-118,851,rpm,300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_03.png
+State gauge,7,-118,851,rpm,400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_04.png
+State gauge,7,-118,851,rpm,500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_05.png
+State gauge,7,-118,851,rpm,600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_06.png
+State gauge,7,-118,851,rpm,700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_07.png
+State gauge,7,-118,851,rpm,800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_08.png
+State gauge,7,-118,851,rpm,900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_09.png
+State gauge,7,-118,851,rpm,1000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_10.png
+State gauge,7,-118,851,rpm,1100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_11.png
+State gauge,7,-118,851,rpm,1200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_12.png
+State gauge,7,-118,851,rpm,1300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_13.png
+State gauge,7,-118,851,rpm,1400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_14.png
+State gauge,7,-118,851,rpm,1500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_15.png
+State gauge,7,-118,851,rpm,1600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_16.png
+State gauge,7,-118,851,rpm,1700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_17.png
+State gauge,7,-118,851,rpm,1800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_18.png
+State gauge,7,-118,851,rpm,1900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_19.png
+State gauge,7,-118,851,rpm,2000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_20.png
+State gauge,7,-118,851,rpm,2100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_21.png
+State gauge,7,-118,851,rpm,2200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_22.png
+State gauge,7,-118,851,rpm,2300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_23.png
+State gauge,7,-118,851,rpm,2400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_24.png
+State gauge,7,-118,851,rpm,2500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_25.png
+State gauge,7,-118,851,rpm,2600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_26.png
+State gauge,7,-118,851,rpm,2700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_27.png
+State gauge,7,-118,851,rpm,2800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_28.png
+State gauge,7,-118,851,rpm,2900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_29.png
+State gauge,7,-118,851,rpm,3000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_30.png
+State gauge,7,-118,851,rpm,3100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_31.png
+State gauge,7,-118,851,rpm,3200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_32.png
+State gauge,7,-118,851,rpm,3300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_33.png
+State gauge,7,-118,851,rpm,3400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_34.png
+State gauge,7,-118,851,rpm,3500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_35.png
+State gauge,7,-118,851,rpm,3600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_36.png
+State gauge,7,-118,851,rpm,3700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_37.png
+State gauge,7,-118,851,rpm,3800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_38.png
+State gauge,7,-118,851,rpm,3900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_39.png
+State gauge,7,-118,851,rpm,4000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_40.png
+State gauge,7,-118,851,rpm,4100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_41.png
+State gauge,7,-118,851,rpm,4200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_42.png
+State gauge,7,-118,851,rpm,4300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_43.png
+State gauge,7,-118,851,rpm,4400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_44.png
+State gauge,7,-118,851,rpm,4500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_45.png
+State gauge,7,-118,851,rpm,4600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_46.png
+State gauge,7,-118,851,rpm,4700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_47.png
+State gauge,7,-118,851,rpm,4800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_48.png
+State gauge,7,-118,851,rpm,4900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_49.png
+State gauge,7,-118,851,rpm,5000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_50.png
+State gauge,7,-118,851,rpm,5100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_51.png
+State gauge,7,-118,851,rpm,5200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_52.png
+State gauge,7,-118,851,rpm,5300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_53.png
+State gauge,7,-118,851,rpm,5400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_54.png
+State gauge,7,-118,851,rpm,5500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_55.png
+State gauge,7,-118,851,rpm,5600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_56.png
+State gauge,7,-118,851,rpm,5700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_57.png
+State gauge,7,-118,851,rpm,5800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_58.png
+State gauge,7,-118,851,rpm,5900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_59.png
+State gauge,7,-118,851,rpm,6000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_60.png
+State gauge,7,-118,851,rpm,6100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_61.png
+State gauge,7,-118,851,rpm,6200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_62.png
+State gauge,7,-118,851,rpm,6300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_63.png
+State gauge,7,-118,851,rpm,6400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Blue_64.png
+State gauge,7,-118,851,rpm,6500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_65.png
+State gauge,7,-118,851,rpm,6600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_66.png
+State gauge,7,-118,851,rpm,6700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_67.png
+State gauge,7,-118,851,rpm,6800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_68.png
+State gauge,7,-118,851,rpm,6900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_69.png
+State gauge,7,-118,851,rpm,7000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_70.png
+State gauge,7,-118,851,rpm,7100,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_71.png
+State gauge,7,-118,851,rpm,7200,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_72.png
+State gauge,7,-118,851,rpm,7300,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_73.png
+State gauge,7,-118,851,rpm,7400,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_74.png
+State gauge,7,-118,851,rpm,7500,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_75.png
+State gauge,7,-118,851,rpm,7600,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_76.png
+State gauge,7,-118,851,rpm,7700,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_77.png
+State gauge,7,-118,851,rpm,7800,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_78.png
+State gauge,7,-118,851,rpm,7900,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_79.png
+State gauge,7,-118,851,rpm,8000,file:///home/pi/Logo/none,file:///home/pi/Logo/MGrpm_Red_79.png
+Round gauge,710,880.9987515605494,4.012474012474058,speed,130,0,130,-1000,-131,130,110,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,5,0,0,0,0,transparent,transparent,transparent,transparent,grey,transparent,transparent,transparent,grey,transparent,blue,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,690,880.9987515605494,4.012474012474058,FuelLevel,100,0,100,-1000,145,211,100,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,5,0,0,0,0,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,blue,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,710,880.9987515605494,4.012474012474058,FuelLevel,100,0,100,-1000,147,211,100,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,10,92,8,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+gauge image,1.0178179155479654,-443.4049304369051,1601,file:///home/pi/Logo/MGfirstlayer - V3d.png
+Round gauge,710,880.9987515605494,4.012474012474058,speed,130,0,130,-1000,-131,130,110,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,5,92,8,0,2,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+State GIF,492,148,250,rpm,500,file:///home/pi/Logo/MGrotor-off.gif,file:///home/pi/Logo/MGrotor.gif,0
+Round gauge,206,715,480,Watertemp,250,50,200,-1000,-130,128,200,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,8,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,206,470,480,oilpres,100,0,100,20,-129,129,100,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,2,red,darkred,transparent,red,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,206,227,480,oiltemp,250,50,200,-1000,-130,128,200,10,-1,-1,0,0,2,0,0,-1,-1,-1,-1,-1,0.5,0.4,0.33,0.25,0,2,92,8,0,8,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,Lato,0,0,1,false,Lato,Alternator Light,transparent, ,, ,, ,,
+Round gauge,206,184,184,gpsHour60,60,0,755,-1000,0,360,60,1,0,0,1,1,0,38,0,0,0,0,0,0,0.5,0.4,0.33,0.25,20,2,65,14,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,F Automaton,0,0,1,false,SF Automaton, , , ,, ,, ,,
+Round gauge,206,184,184,gpsMinute60,60,0,755,-1000,0,360,60,1,0,0,1,1,0,38,0,0,0,0,0,0,0.5,0.4,0.33,0.25,20,2,75,8,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,false,F Automaton,0,0,1,false,SF Automaton, , , ,, ,, ,,
+Round gauge,206,184,184,gpsSecond60,60,0,755,-1000,0,360,60,1,5,0,0,1,0,20,0,2,0,0,12,6,0.5,0.4,0.33,0.25,20,2,85,4,0,0,red,darkred,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,transparent,true,false,true,SF Automaton,0,0,1,false,SF Automaton, , , ,, ,, ,,
+State gauge,1200,311,83,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
+State gauge,798,561,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
+State gauge,267,266,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
+State gauge,311,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
+State gauge,554,560,40,speed,0,file:///home/pi/Logo/MGpingblack.png,file:///home/pi/Logo/MGpingblack.png
+Text label gauge,1168,463,110514,Segment7,20,white,Odo,true,0,200000,-20000,
+Text label gauge,1220,510,24.6,Segment7,18,white,Trip,true,1,200000,-20000,
+State gauge,435,168,50,EXDigitalInput1,1,file:///home/pi/Logo/MG (26).png,file:///home/pi/Logo/MG (25).png
+State gauge,771,171,50,EXDigitalInput2,1,file:///home/pi/Logo/MG (28).png,file:///home/pi/Logo/MG (27).png
+State gauge,676,404,40,EXDigitalInput6,1,file:///home/pi/Logo/MG (34).png,file:///home/pi/Logo/MG (33).png
+State gauge,745,235,100,EXDigitalInput7,1,file:///home/pi/Logo/MG (23).png,file:///home/pi/Logo/MG (24).png
+State gauge,409,235,100,EXDigitalInput8,1,file:///home/pi/Logo/MG (36).png,file:///home/pi/Logo/MG (35).png
+State gauge,354,404,40,mil,1,file:///home/pi/Logo/MG (19).png,file:///home/pi/Logo/MG (7).png
+State gauge,808,602,40,Watertemp,200,file:///home/pi/Logo/MG (17).png,file:///home/pi/Logo/MG (5).png
+State gauge,780,602,40,EXDigitalInput3,1,file:///home/pi/Logo/MG (37).png,file:///home/pi/Logo/MG (38).png
+State gauge,784,404,40,EXDigitalInput5,1,file:///home/pi/Logo/MG (4).png,file:///home/pi/Logo/MG (16).png
+State gauge,553,602,40,oilpres,20,file:///home/pi/Logo/MG (8).png,file:///home/pi/Logo/MG (20).png
+State gauge,567,404,40,BatteryV,11,file:///home/pi/Logo/MG (3).png,file:///home/pi/Logo/MG (15).png
+State gauge,1325,540,50,FuelLevel,20,file:///home/pi/Logo/MG (9).png,file:///home/pi/Logo/MG (21).png
+State gauge,316,602,40,oiltemp,200,file:///home/pi/Logo/MG (18).png,file:///home/pi/Logo/MG (6).png
+State gauge,463,404,40,EXDigitalInput4,1,file:///home/pi/Logo/MG (11).png,file:///home/pi/Logo/MG (12).png
+
