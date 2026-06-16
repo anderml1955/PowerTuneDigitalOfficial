@@ -208,6 +208,7 @@ void GPS::closeConnection()
 
 void GPS::handleError(QSerialPort::SerialPortError serialPortError)
 {
+    Q_UNUSED(serialPortError)
     if (m_serialport->errorString() == "No error")
     {
         // qDebug() << "handle error" << m_serialport->errorString() ;
@@ -335,6 +336,9 @@ void GPS::handleReconnect()
 
 void GPS::processGPRMC(const QString & line) {
     QStringList fields = line.split(',');
+    if (fields.size() < 10) {
+        return;
+    }
     QString time = fields[1];
 
     time.insert(2, ":");
@@ -395,6 +399,9 @@ void GPS::processGPRMC(const QString & line) {
 
 void GPS::processGPGGA(const QString & line) { // Get the values we want from here or that are not available in GPRMC message
     QStringList fields = line.split(',');
+    if (fields.size() < 10) {
+        return;
+    }
 
     int fixquality = fields[6].toInt();
     switch (fixquality) {
