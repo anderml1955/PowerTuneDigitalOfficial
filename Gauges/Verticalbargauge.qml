@@ -41,6 +41,13 @@ Rectangle {
         target: Dashboard
         onDraggableChanged:togglemousearea()
     }
+
+    Binding {
+        target: gauge1
+        property: "value"
+        value: maxvalue
+        when: Dashboard.draggable === 1
+    }
     //When the Gauge Value Changes do the maths with the scale and offset applied to display the new value
     // onGaugevalueChanged: {
     //     console.log("Data Changed Scale Added: " + gaugeScaleOffset)

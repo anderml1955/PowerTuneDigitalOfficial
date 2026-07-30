@@ -290,7 +290,7 @@ Rectangle {
         orientation: Qt.Vertical
         minorTickmarkCount: 0
         tickmarkAlignment: Qt.AlignRight
-        value: parent.mainvalue //gaugeScaleOffset
+        value: Dashboard.draggable === 1 ? parent.maxvalue : parent.mainvalue //gaugeScaleOffset
         maximumValue: parent.maxvalue
 
         style: GaugeStyle {
@@ -329,7 +329,7 @@ Rectangle {
         orientation: Qt.Horizontal
         minorTickmarkCount: 0
         tickmarkAlignment: Qt.AlignRight
-        value: parent.mainvalue //gaugeScaleOffset
+        value: Dashboard.draggable === 1 ? parent.maxvalue : parent.mainvalue //gaugeScaleOffset
         maximumValue: parent.maxvalue
 
         style: GaugeStyle {

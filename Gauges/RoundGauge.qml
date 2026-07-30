@@ -314,7 +314,8 @@ Rectangle{
                                 outerRadius,
                                 outerRadius - toPixels(redareainset*0.01) - ctx.lineWidth / 2,
                                 degreesToRadians(valueToAngle(redareastart) - 90),
-                                degreesToRadians(valueToAngle(gauge.maximumValue) - 90));
+                                degreesToRadians(valueToAngle(gauge.maximumValue) - 90),
+                                endangle < startangle);
                         ctx.stroke();
                     }
                 }
@@ -350,7 +351,8 @@ Rectangle{
                                 outerRadius,
                                 outerRadius - ctx.lineWidth / 2,
                                 degreesToRadians(valueToAngle(gauge.minimumValue) - 90),
-                                degreesToRadians(valueToAngle(gauge.value) - 90));
+                                degreesToRadians(valueToAngle(gauge.value) - 90),
+                                endangle < startangle);
                         ctx.stroke();
                     }
                 }
