@@ -20,6 +20,10 @@ import "qrc:/Translator.js" as Translator
 Item {
     id: mainwindow
     anchors.fill: parent
+    // Set by main.qml (see bindEditLock) from the drawer's "Lock Dash Edit"
+    // toggle - while true, double-tapping this page won't open the gauge
+    // editing menu.
+    property bool editLocked: false
     property string datastore: ""
     property string saveDashtofilestring : ""
     property string gaugeType : ""
@@ -200,7 +204,7 @@ Item {
     function updatppiclist()
     {
                     for(var i = 0; i < backroundSelector.count; ++i)
-//                    if (backroundpicture1.source == "file:///home/pi/Logo/" + backroundSelector.textAt(i))
+//                    if (backroundpicture1.source == PTBaseUrl + "/Logo/" + backroundSelector.textAt(i))
                         if (backroundpicture1.source == "file:"  + backroundSelector.textAt(i))
 
 
@@ -232,6 +236,7 @@ Item {
         anchors.fill: parent
         onPressed:
         {
+            if (editLocked) return;
             touchCounter++;
             if (touchCounter == 1) {
                 lastTouchTime = Date.now();
@@ -334,7 +339,7 @@ Item {
                 currentIndex: 0
                 onCurrentIndexChanged: {
 
-                    backroundpicturesource1 = "file:///home/pi/Logo/" + backroundSelector.textAt(backroundSelector.currentIndex);
+                    backroundpicturesource1 = PTBaseUrl + "/Logo/" + backroundSelector.textAt(backroundSelector.currentIndex);
                     //backroundpicturesource1 = "file:///c:/Logo/" + backroundSelector.textAt(backroundSelector.currentIndex);
                     //backroundpicturesource1 = "file:" + backroundSelector.textAt(backroundSelector.currentIndex);
                     backroundpicture1.source = backroundpicturesource1;

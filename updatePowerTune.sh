@@ -54,13 +54,8 @@ if [ -d /home/root ]; then
 		# checkout, which silently broke every update on this path before.
 		rm -rf /home/pi/src
 		mkdir /home/pi/src
-# <<<<<<< HEAD
 		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src
-#		cd src
-# =======
-#		git clone https://github.com/PowerTuneDigital/PowerTuneDigitalOfficial.git /home/pi/src
 		cd /home/pi/src
-# >>>>>>> 52c7ec0d222530b1c83eaa0d995b924cbd42d382
 		./updatedaemons.sh
 		./updateUserDashboards.sh
 		fi
@@ -120,13 +115,8 @@ if nc -zw5 www.github.com 443; then
 		# Same -d-isn't-enough issue as the Yocto branch above - see there.
 		rm -rf /home/pi/src
 		mkdir /home/pi/src
-# <<<<<<< HEAD
 		git clone https://github.com/anderml1955/PowerTuneDigitalOfficial.git /home/pi/src
-#		cd src
-# =======
-#		git clone https://github.com/PowerTuneDigital/PowerTuneDigitalOfficial.git /home/pi/src
 		cd /home/pi/src
-# >>>>>>> 52c7ec0d222530b1c83eaa0d995b924cbd42d382
 		./fixcan.sh
 		./updatedaemons.sh
 		./updateUserDashboards.sh
