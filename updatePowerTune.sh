@@ -1,5 +1,5 @@
 #!/bin/sh
-#Check if this is a Yocto image
+#Check if this is a Yocto image 
 if [ -d /home/root ]; then
 # Get the latest source
 		echo "Yocto detected "
